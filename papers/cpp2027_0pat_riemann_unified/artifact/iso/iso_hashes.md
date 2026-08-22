@@ -87,3 +87,5 @@
 | 2026-08-19 | proof.lean | cf01a4515387afac | 卷已知曲线: ζ(2+it)有界(级数) + Γ(1+it)≤1(积分表示) |
 | 2026-08-19 | proof.lean | 792cff814fcb8d9e | 底边拼装: 无零点(假实轴) + arg跳=π + ζ实轴实值 + ζ(-1)<0 |
 | 2026-08-19 | proof.lean | c5eaeba825d7afc0 | (0,1)负性核心件: 部分和<积分 (欧拉-麦克劳林第一不等式) |
+| 2026-08-22 | zeta_rh_oddeven_iso.lean | 9e024972eda4d15e | RH 奇偶交点形式 (iso 42): rh_classical ⟺ rh_oddeven (奇偶公共零点 ⟺ ζ 零点, 逆否: 离线公共零点 ⟺ RH 失败) — 4 定理 0-sorry, 只 import Mathlib |
+| 2026-08-22 | zeta_quadruple_cosh_iso.lean | 54cf568c040a3c33 | 零点四元组 cosh 分解 (iso 43): Re(x^ρ+x^{1−ρ}+x^conj ρ+x^{1−conj ρ}) = 4·x^{1/2}·cosh((β−1/2)·log x)·cos(t·log x) — 4 定理 0-sorry, 只 import Mathlib |
