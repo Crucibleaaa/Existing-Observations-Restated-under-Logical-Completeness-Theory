@@ -7,12 +7,11 @@
 lean proof_unified.lean   # 0 errors, 0 warnings, 0 sorry
 ```
 
-## Theorems (156, all 0pat)
+## Theorems (248, all 0pat)
 
-`proof_unified.lean` = iso 分块 (zeta_*_iso.lean, 27 块独立编译通过) 拼接为
-单文件完整证明 + Hardy Z (翻转缺口 1+1b): 156 声明 (124 theorems/lemmas +
-32 definitions), 声明级去重 (同名保留首现; zetaUnit ℝ 版重命名
-zetaUnitOnLine), 只 import Mathlib。
+`proof_unified.lean` = 37 源完整合并 (XXIV–XXXVI, 231 声明, API 迁移后全量
+编译通过) + Hardy Z (翻转缺口 1+1b, 17 声明): 248 声明 (200 theorems/lemmas +
+48 definitions), 只 import Mathlib, 0 error 0 sorry。
 
 Merged from exercises XXIV–XXXVI (original namespaces preserved) plus
 new theorems in `RiemannUnifiedObservation`:
